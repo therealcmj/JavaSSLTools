@@ -11,6 +11,7 @@ To compile/package:
 The code will be compiled and jar'd into target/JavaSSLTools-1.0-SNAPSHOT.jar
 
 To get info on your JRE's SSL stack:
+
 `java -jar target/JavaSSLTools-1.0-SNAPSHOT.jar info`
 
 To make an SSL/TLS connection to a server
@@ -18,4 +19,3 @@ To make an SSL/TLS connection to a server
 `java -jar target/JavaSSLTools-1.0-SNAPSHOT.jar ping [<hostname> [port]]`
 
 That is to say that hostname and port are optional. If you don't specify one the tool will use www.oracle.com and 443 as defaults.
-
