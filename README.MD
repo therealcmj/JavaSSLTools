@@ -4,14 +4,13 @@ Quick and dirty SSL info / test tool
 
 To compile/package:
 
-    git pull this repository
-    cd into the JavaSSLTools directory
-    mvn package
+ 1. git pull this repository
+ 2. cd into the JavaSSLTools directory
+ 3. run "mvn package"
 
 The code will be compiled and jar'd into target/JavaSSLTools-1.0-SNAPSHOT.jar
 
 To get info on your JRE's SSL stack:
-
 `java -jar target/JavaSSLTools-1.0-SNAPSHOT.jar info`
 
 To make an SSL/TLS connection to a server
